@@ -1,0 +1,9 @@
+
+h1 {
+    font-family: Magneto;
+    color: #3694eb;
+}
+@font-face {
+    font-family: Magneto;
+    src: url(/src/assets/Fonts/magneto/MAGNETOB.woff);
+  }
