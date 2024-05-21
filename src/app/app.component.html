@@ -3,9 +3,9 @@
 <!DOCTYPE html>
 <div class="bg-white">
   <header class="absolute inset-x-0 top-0 z-50">
-    <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <nav class="flex fixed w-full items-center justify-between p-6 lg:px-8" aria-label="Global">
       <div class="flex lg:flex-1">
-        <h1 class="text-4xl"><a href="#"><span>N-tech</span></a></h1>
+        <h1 class="text-4xl"><a href="#Home"><span>N-tech</span></a></h1>
       </div>
       <div class="flex lg:hidden">
         <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" (click)="toggleMenu()">
@@ -17,11 +17,11 @@
         </button>
       </div>
       <div class="hidden lg:flex lg:gap-x-12 lg:justify-end">
-        <a href="#" class="text-lg font-semibold leading-6 text-gray-900">Home</a>
-        <a href="#" class="text-lg font-semibold leading-6 text-gray-900">About</a>
-        <a href="#" class="text-lg font-semibold leading-6 text-gray-900">Service</a>
-        <a href="#" class="text-lg font-semibold leading-6 text-gray-900">Clients</a>
-        <a href="#" class="text-lg font-semibold leading-6 text-gray-900">Contact</a>
+        <a href="#Home" class="text-lg font-semibold leading-6 text-gray-900">Home</a>
+        <a href="#About" class="text-lg font-semibold leading-6 text-gray-900">About</a>
+        <a href="#Services" class="text-lg font-semibold leading-6 text-gray-900">Services</a>
+        <a href="#Clients" class="text-lg font-semibold leading-6 text-gray-900">Clients</a>
+        <a href="#Contact" class="text-lg font-semibold leading-6 text-gray-900">Contact</a>
       </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
@@ -41,15 +41,193 @@
         <div class="mt-6 flow-root">
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-gray-900 hover:bg-gray-50">Home</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-gray-900 hover:bg-gray-50">About</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-gray-900 hover:bg-gray-50">Services</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-gray-900 hover:bg-gray-50">Clients</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact</a>
+              <a href="#Home" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-gray-900 hover:bg-gray-50">Home</a>
+              <a href="#About" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-gray-900 hover:bg-gray-50">About</a>
+              <a href="#Services" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-gray-900 hover:bg-gray-50">Services</a>
+              <a href="#Clients" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-gray-900 hover:bg-gray-50">Clients</a>
+              <a href="#Contact" class="-mx-3 block rounded-lg px-3 py-2 text-lg font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact</a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </header>
+
+  <section id="Home">
+    <div class="relative">
+    <div class="container">
+      <div class="row  align-items-center">
+        <div class="col-lg">
+          <h4>N-tech Global Solutions</h4>
+          <h5>IT Support and Services</h5>
+          <p class="centered-text"> We enjoy breaking conventions of what's possible in the online world when we still keep costs in mind. We build effective online campaigns, marketing, e-commerce, and apps for many other purposes.</p>
+        </div>
+        <div class="col-lg">
+          <img src="../assets/sit.svg" alt="N-tech">
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+ 
+  <section class="section gray-bg" id="About">
+    <div class="relative">
+      <div class="container">
+        <div class="row md-m-25px-b m-45px-b justify-content-center text-center">
+          <div class="col-lg">
+            <h3 class="h1 m-20px-t">Do More With Us</h3>
+            <p style="text-align: center;">We analyze trends and come up with creativity connecting the virtual and real worlds.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg">
+            <div class="media box-shadow p-20px white-bg hover-top border-radius-10">
+              <div class="avatar-100 border-radius-10 dots-icon">
+                <img src="../assets/services-idea.svg" title="" alt="N-tech"/>
+                <span class="dots">
+                  <i class="dot dot1"></i>
+                  <i class="dot dot2"></i>
+                  <i class="dot dot3"></i>
+                </span>
+              </div>
+              <div class="media-body p-15px-l">
+                <h6 class="m-5px-b">Creative Concepts</h6>
+                <p class="m-15px-b">We will listen to reach out your goals regardless of what you sell. Based on that, we introduce more creative ideas for perfective work.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="media box-shadow p-20px white-bg hover-top border-radius-10">
+              <div class="avatar-100 border-radius-10 dots-icon">
+                <img src="../assets/girl.svg" title="" alt="N-tech"/>
+                <span class="dots">
+                  <i class="dot dot1"></i>
+                  <i class="dot dot2"></i>
+                  <i class="dot dot3"></i>
+                </span>
+              </div>
+              <div class="media-body p-15px-l">
+                <h6 class="m-5px-b">Testing for Perfection</h6>
+                <p class="m-15px-b">We deal individually with each project. Our design is sharp, clean, and we make sure that it is 99.9% error-free.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg">
+            <div class="media box-shadow p-20px white-bg hover-top border-radius-10">
+              <div class="avatar-100 border-radius-10 dots-icon">
+                <img src="../assets/services-p-boy.svg" title="" alt="N-tech"/>
+                <span class="dots">
+                  <i class="dot dot1"></i>
+                  <i class="dot dot2"></i>
+                  <i class="dot dot3"></i>
+                </span>
+              </div>
+              <div class="media-body p-15px-l">
+                <h6 class="m-5px-b">Innovative Solutions</h6>
+                <p class="m-15px-b">N-tech has the best team who is qualified and certified. They are well experienced by providing accurate and timely work.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="media box-shadow p-20px white-bg hover-top border-radius-10">
+              <div class="avatar-100 border-radius-10 dots-icon">
+                <img src="../assets/cup.jpg" title="" alt="N-tech"/>
+                <span class="dots">
+                  <i class="dot dot1"></i>
+                  <i class="dot dot2"></i>
+                  <i class="dot dot3"></i>
+                </span>
+              </div>
+              <div class="media-body p-15px-l">
+                <h6 class="m-5px-b">We are the Best</h6>
+                <p class="m-15px-b">We proudly say that we are One of the top IT Support and Service Providers with over 100+ employees team work is our key to success.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="Choose">
+    <div class="relative isolate px-6 pt-14 lg:px-8">
+      <div class="row justify-content-around align-items-center">
+        <div class="col-lg-5 md-m-30px-b">
+            <h2 class="m-20px-b">Why to choose us?</h2>
+            <div class="hr-line m-20px-b">
+                <span class="theme-bg theme2nd-color"></span> <span class="theme2nd-color"></span>
+
+            </div>
+            <ul class="list-type-02 m-5px-b">
+              <li><i class="fab fa-fort-awesome fa-lg"></i>&nbsp;&nbsp;5+ Years Of Experience.</li>
+              <li>Quality of Work.</li>
+              <li>Time Efficient.</li>
+              <li>Affordable Cost</li>
+              <li>Secure</li>
+              <li>24/7 Support</li>
+              <i class="fas fa-spinner fa-spin"></i>
+              
+            </ul>            
+        </div>
+        <div class="col-lg-6">
+          <img src="../assets/values-light.svg" title="" alt="N-tech"/>
+          </div>
+        </div>
+    </div>
+  </section>
+  <section id="Services">
+    <div class="relative isolate px-6 pt-14 lg:px-8">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg">
+            Services
+          </div>
+          <div class="col-lg">
+            <img src="../assets/values-light.svg" title="" alt="N-tech"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="Clients">
+    <div class="relative isolate px-6 pt-14 lg:px-8">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg">
+            Clients
+          </div>
+          <div class="col-lg">
+            <img src="../assets/values-light.svg" title="" alt="N-tech"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="Pc">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg">
+            PC
+          </div>
+          <div class="col-lg">
+            <img src="../assets/pc.png" title="" alt="N-tech"/>
+          </div>
+        </div>
+    </div>
+  </section>
+  <section id="Contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg">
+        Contact
+        </div>
+        <div class="col-lg">
+          <img src="../assets/get2.gif" title="" alt="N-tech"/>
+        </div>
+      </div>
+    </div>
+  </section>
+  
 </div>
