@@ -1,0 +1,17 @@
+
+:host {
+    display: block;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+nav{
+    background-color: #ffffff;
+    height: 10px;
+    }
+
+h1 
+{
+    font-family: Magneto;
+    color: #3694eb;
+}
