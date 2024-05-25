@@ -126,3 +126,47 @@ p{
     }
   }
    
+ 
+
+  /* ----------------------
+*   transeition
+---------------------------*/
+
+.transition {
+    -moz-transition: ease-in-out all 0.35s;
+    -o-transition: ease-in-out all 0.35s;
+    -webkit-transition: ease-in-out all 0.35s;
+    transition: ease-in-out all 0.35s;
+}
+
+[class*="hover-"] {
+    -moz-transition: ease-in-out all 0.35s;
+    -o-transition: ease-in-out all 0.35s;
+    -webkit-transition: ease-in-out all 0.35s;
+    transition: ease-in-out all 0.35s;
+}
+
+
+/* ----------------------
+*   Top Hover
+---------------------------*/
+
+.hover-top {
+    position: relative;
+    top: 0;
+}
+
+.hover-top:hover {
+    top: -10px;
+}
+
+.hover-top-in .hover-top--in {
+    position: relative;
+    top: 0;
+}
+
+.hover-top-in:hover .hover-top--in {
+    top: -10px;
+}
+
+    
