@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { PcComponent } from './pc.component';
 
 describe('PcComponent', () => {
@@ -9,8 +8,7 @@ describe('PcComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [PcComponent]
-    })
-    .compileComponents();
+    }).compileComponents();
     
     fixture = TestBed.createComponent(PcComponent);
     component = fixture.componentInstance;
